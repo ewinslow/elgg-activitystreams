@@ -1,0 +1,16 @@
+Support for ActivityStreams atom feeds in Elgg 1.8
+
+See: http://activitystrea.ms/
+
+views/atom/activitystreams/object/*.php 
+---------------------------------------
+Files correspond to the "Base object types" listed here: 
+http://activitystrea.ms/schema/1.0/activity-schema-01.html#anchor5.
+Many different elgg subtypes may map to only one activitystreams type.
+
+
+TODO
+----
+Disambiguation of elgg subtypes
+JSON feed
+Extract atom support into another plugin?
